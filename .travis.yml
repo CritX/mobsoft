@@ -1,4 +1,2 @@
 language: c++
-c++:
-- c++14
-script: c++unit bomb-timer.cpp
+c++:c++14
