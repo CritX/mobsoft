@@ -1,2 +1,1 @@
-language: c++
-c++:c++14
+language: cpp
