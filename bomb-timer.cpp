@@ -11,11 +11,11 @@ scoreb = rand() % 20 + 1; //Same thing here
 cout << "BOMB COUNTDOWN" << endl;
 this_thread::sleep_for(chrono::seconds(2)); //Gives time for Bomb Countdown text
 for (int bombtimer=10; /*Creates bomb timer variable*/bombtimer>-1; /*Checks if bomb timer is bigger than -1*/--bombtimer/*subtracts one from bomb timer*/) {
-std::cout << bombtimer << endl;
-std::this_thread::sleep_for(chrono::seconds(1)); //Wait 1 second
+cout << bombtimer << endl;
+this_thread::sleep_for(chrono::seconds(1)); //Wait 1 second
 }
 cout << "BOOM" << endl;
 this_thread::sleep_for(chrono::seconds(1)); //Wait 1 second
-std::cout << "Player194 had been killed. Score: " << scorea << "-" << scoreb << endl;
+cout << "Player194 had been killed. Score: " << scorea << "-" << scoreb << endl;
 return 0; //Exits application
 }
