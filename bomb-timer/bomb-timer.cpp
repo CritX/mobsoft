@@ -15,6 +15,6 @@ this_thread::sleep_for(chrono::seconds(1)); //Wait 1 second
 }
 cout << "BOOM" << endl;
 this_thread::sleep_for(chrono::seconds(1)); //Wait 1 second
-cout << "Player had been killed. Score: " << scorea << "-" << scoreb << endl;
+cout << "Player194 had been killed. Score: " << scorea << "-" << scoreb << endl;
 return 0; //Exits application
 }
