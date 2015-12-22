@@ -1,4 +1,6 @@
 language: cpp
+cpp:
+- c++14
 branches:
 only:
 - master
