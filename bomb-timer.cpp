@@ -2,7 +2,7 @@
 #include <chrono> //Used for time
 #include <thread> //Also used for time
 #include <stdlib.h> //For random score
-int main(void){
+void main(){
 int scorea, scoreb;
 scorea = rand() % 20 + 1; //1 is min, 20 is max
 scoreb = rand() % 20 + 1; //Same thing here
