@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stdio.h>
 #include <chrono> //Used for time
 #include <thread> //Also used for time
 #include <stdlib.h> //For random score
