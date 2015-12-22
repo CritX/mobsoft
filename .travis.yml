@@ -1,5 +1,5 @@
 language: cpp
-cpp:
+complier:
 - gcc
 branches:
 only:
