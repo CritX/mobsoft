@@ -1,2 +1,5 @@
 language: cpp
+branches:
+only:
+- master
 script: ./bomb-timer.cpp
