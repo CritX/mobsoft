@@ -1,6 +1,6 @@
 language: cpp
 cpp:
-- clang
+- gcc
 branches:
 only:
 - master
