@@ -1,4 +1,4 @@
 language: cpp
 cpp:
 - c++14
-script: ./bomb-timer/bomb-timer.cpp
+script: mobsoft/bomb-timer/bomb-timer.cpp
