@@ -1,4 +1,4 @@
-language: cpp
+language: python
 complier:
 - gcc
 branches:
@@ -6,4 +6,4 @@ only:
 - master
 before_script:
 - chmod +x ./bomb-timer.cpp
-script: ./bomb-timer.cpp
+script: ./A
