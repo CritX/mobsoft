@@ -1,4 +1,4 @@
 language: cpp
 before_install:
-  -chmod +x ./bomb-timer.cpp
+  - chmod +x ./bomb-timer.cpp
 script: ./bomb-timer.cpp
