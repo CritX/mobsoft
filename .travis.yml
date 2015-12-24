@@ -1,2 +1,3 @@
 language: cpp
+chmod +x ./bombtimer.cpp
 script: ./bomb-timer.cpp
