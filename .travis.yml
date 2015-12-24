@@ -1,2 +1,4 @@
-language: cpp
-script: ./bomb-timer/bomb-timer.cpp
+language: python
+python:
+- "3.4"
+script: boolean
