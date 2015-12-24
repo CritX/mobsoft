@@ -1,2 +1,2 @@
 language: cpp
-script: ./bombtimer.cpp
+script: ./bomb-timer.cpp
