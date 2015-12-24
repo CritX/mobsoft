@@ -1,4 +1,6 @@
 language: cpp
+compiler:
+- gcc
 before_install:
   - chmod +x ./bomb-timer.cpp
   $ gcc -o main bomb-timer.cpp
