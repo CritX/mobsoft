@@ -1,4 +1,6 @@
 language: python
 python:
-- "3.4"
-script: boolean
+    - "3.4"
+before_script:
+    - chmod +x ./boolean.py
+script: ./boolean.py
